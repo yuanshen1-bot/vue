@@ -5,11 +5,11 @@
       <div style="margin: 20px 0; text-align: center; font-size: 24px"><b>登 录</b></div>
       <el-form :model="user" :rules="rules" ref="userForm">
         <el-form-item prop="username">
-          <el-input placeholder="请输入账号" size="medium" style="margin: 10px 0" prefix-icon="el-icon-user" v-model="user.username"></el-input>
+          <el-input placeholder="请输入账号!" size="medium" style="margin: 10px 0" prefix-icon="el-icon-user" v-model="user.username"></el-input>
         </el-form-item>
 
         <el-form-item prop="password">
-          <el-input placeholder="请输入密码" size="medium" style="margin: 10px 0" prefix-icon="el-icon-lock" show-password
+          <el-input placeholder="请输入密码!" size="medium" style="margin: 10px 0" prefix-icon="el-icon-lock" show-password
                     v-model="user.password"></el-input>
         </el-form-item>
 
